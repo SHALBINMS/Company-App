@@ -20,6 +20,7 @@
         android:background="#B33771"
         android:text="Add Employee"
         android:textColor="#FFFFFF"
+        android:id="@+id/addempBtn"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -30,12 +31,26 @@
     <androidx.appcompat.widget.AppCompatButton
         android:background="#B33771"
         android:text="Search Employee"
+        android:id="@+id/srchempBtn"
         android:textColor="#FFFFFF"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+    android:background="#B33771"
+    android:text="Log out"
+    android:id="@+id/logoutBtn"
+    android:textColor="#FFFFFF"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
 
 
 

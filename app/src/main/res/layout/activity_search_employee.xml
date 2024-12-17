@@ -32,7 +32,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:background="#B33771"
-        android:text="Add Employee"
+        android:text="Search employee"
         android:textColor="#FFFFFF"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="20dp"
@@ -43,7 +43,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:background="#B33771"
-        android:text="Search Employee"
+        android:text="Back to Menu"
+        android:id="@+id/backBtn"
         android:textColor="#FFFFFF"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="20dp"
